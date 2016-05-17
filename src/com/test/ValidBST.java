@@ -1,3 +1,5 @@
+package com.test;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -6,6 +8,7 @@ public class ValidBST {
 
 	public static void main(String[] args) {
 
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		int numberOfTestes = sc.nextInt();
 
